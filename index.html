@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anup Totala | Physics Educator & EdTech Innovator</title>
+    <title>Anup Totala | Physics Educator & EdTech Developer</title>
     <meta name="description" content="IIT Delhi & IIM Indore Alumnus. Senior Physics Lecturer for JEE Advanced & NEET. EdTech Founder and App Developer.">
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -13,170 +13,219 @@
             theme: {
                 extend: {
                     colors: {
-                        slateDark: '#0f172a', /* Deep tech aesthetic */
-                        accentBlue: '#3b82f6', /* Professional trust blue */
-                        accentTeal: '#14b8a6' /* Innovator highlight */
+                        darkBg: '#0f172a',
+                        primaryBlue: '#2563eb',
+                        accentTeal: '#0d9488'
                     }
                 }
             }
         }
     </script>
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-accentBlue selection:text-white">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
-    <nav class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-slate-200">
-        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="font-extrabold text-xl text-slateDark tracking-tight">
-                Anup<span class="text-accentBlue">Totala</span>
+    <nav class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-40 border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="font-extrabold text-2xl text-darkBg tracking-tight">
+                Anup<span class="text-primaryBlue">Totala</span>
             </div>
-            <div class="hidden md:flex gap-6 font-medium text-slate-600">
-                <a href="#about" class="hover:text-accentBlue transition">Pedigree</a>
-                <a href="#experience" class="hover:text-accentBlue transition">Experience</a>
-                <a href="#tech" class="hover:text-accentBlue transition">EdTech</a>
+            <div class="hidden md:flex gap-8 font-semibold text-slate-600">
+                <a href="#pedigree" class="hover:text-primaryBlue transition">Pedigree</a>
+                <a href="#teaching" class="hover:text-primaryBlue transition">Teaching</a>
+                <a href="#impact" class="hover:text-primaryBlue transition">Impact</a>
+                <a href="#tech" class="hover:text-primaryBlue transition">EdTech</a>
             </div>
-            <a href="mailto:anupt27@gmail.com" class="bg-slateDark text-white px-5 py-2 rounded-lg font-semibold hover:bg-slate-800 transition shadow-sm text-sm">
-                Get in Touch
-            </a>
+            <div class="md:hidden font-bold text-primaryBlue text-sm">
+                IIT-D | IIM-I
+            </div>
         </div>
     </nav>
 
-    <header class="bg-slateDark text-white py-24 md:py-32 px-6 border-b-4 border-accentBlue">
-        <div class="max-w-5xl mx-auto">
-            <div class="inline-block bg-slate-800 text-accentTeal font-semibold px-4 py-1 rounded-full text-sm mb-6 border border-slate-700">
+    <header class="bg-darkBg text-white py-20 md:py-32 px-4 border-b-4 border-primaryBlue relative overflow-hidden">
+        <div class="max-w-6xl mx-auto relative z-10">
+            <div class="inline-block bg-slate-800 text-accentTeal font-bold px-4 py-1 rounded-full text-sm mb-6 border border-slate-700 shadow-sm">
                 IIT Delhi & IIM Indore Alumnus
             </div>
             <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight mb-6">
-                Mastering the physics of <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-accentBlue to-accentTeal">learning & technology.</span>
+                Physics Educator.<br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Tech Innovator.</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-400 max-w-2xl mb-10 leading-relaxed">
-                I am a passionate educator with 5+ years of experience mentoring students to top ranks in JEE Advanced and NEET. Beyond the classroom, I build data-driven EdTech solutions and mobile apps to revolutionize how students learn.
+                Empowering students to crack JEE Advanced and NEET through rigorous Physics mentoring, while building scalable EdTech tools with Python and Flutter to revolutionize the learning experience.
             </p>
-            <div class="flex flex-wrap gap-4">
-                <a href="#experience" class="bg-accentBlue text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-600 transition shadow-lg">
-                    View Teaching Profile
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#impact" class="bg-primaryBlue text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition shadow-lg text-center">
+                    View Student Results
                 </a>
-                <a href="#tech" class="bg-transparent border border-slate-600 text-slate-300 px-8 py-3 rounded-lg font-bold hover:bg-slate-800 transition">
-                    Explore Tech Projects
+                <a href="Anup_Totala_CV.pdf" target="_blank" class="bg-transparent border-2 border-slate-600 text-slate-300 px-8 py-3 rounded-lg font-bold hover:bg-slate-800 transition text-center">
+                    Download Resume
                 </a>
             </div>
         </div>
     </header>
 
-    <section id="about" class="py-20 bg-white">
-        <div class="max-w-5xl mx-auto px-6">
-            <h2 class="text-sm font-bold tracking-widest text-accentBlue uppercase mb-8">Academic Foundation</h2>
+    <section id="pedigree" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold text-darkBg mb-4">Academic Pedigree</h2>
+                <div class="w-16 h-1 bg-primaryBlue mx-auto rounded-full"></div>
+            </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-                <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 shadow-sm">
-                    <div class="text-3xl mb-2">🎓</div>
-                    <h3 class="font-bold text-slate-900 text-lg">IIT Delhi</h3>
-                    <p class="text-slate-500 text-sm mt-1">B.Tech in Civil Engineering (2019)</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-6 bg-slate-50 border border-slate-100 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="text-4xl mb-3">🎓</div>
+                    <h3 class="font-bold text-lg text-slate-900">IIT Delhi</h3>
+                    <p class="text-sm text-slate-500 mt-2">B.Tech Civil Engineering (2019)</p>
                 </div>
-                
-                <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 shadow-sm">
-                    <div class="text-3xl mb-2">📊</div>
-                    <h3 class="font-bold text-slate-900 text-lg">IIM Indore</h3>
-                    <p class="text-slate-500 text-sm mt-1">Integrated Program in Business Analytics (2021)</p>
+                <div class="p-6 bg-slate-50 border border-slate-100 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="text-4xl mb-3">📈</div>
+                    <h3 class="font-bold text-lg text-slate-900">IIM Indore</h3>
+                    <p class="text-sm text-slate-500 mt-2">IPBA Analytics (2021)</p>
                 </div>
-
-                <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 shadow-sm">
-                    <div class="text-3xl mb-2">🎯</div>
-                    <h3 class="font-bold text-slate-900 text-lg">AIR 2162</h3>
-                    <p class="text-slate-500 text-sm mt-1">IIT-JEE 2015 (Top 0.2% amongst 13L candidates)</p>
+                <div class="p-6 bg-slate-50 border border-slate-100 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="text-4xl mb-3">🎯</div>
+                    <h3 class="font-bold text-lg text-slate-900">AIR 2162</h3>
+                    <p class="text-sm text-slate-500 mt-2">IIT-JEE 2015 (Top 0.2%)</p>
                 </div>
-
-                <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 shadow-sm">
-                    <div class="text-3xl mb-2">🔬</div>
-                    <h3 class="font-bold text-slate-900 text-lg">AIR 955</h3>
-                    <p class="text-slate-500 text-sm mt-1">KVPY Scholar & Fellowship Awardee (2014)</p>
+                <div class="p-6 bg-slate-50 border border-slate-100 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="text-4xl mb-3">🔬</div>
+                    <h3 class="font-bold text-lg text-slate-900">AIR 955</h3>
+                    <p class="text-sm text-slate-500 mt-2">KVPY Scholar & Fellowship (2014)</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="experience" class="py-20 bg-slate-50 border-y border-slate-200">
-        <div class="max-w-5xl mx-auto px-6">
-            <h2 class="text-sm font-bold tracking-widest text-accentBlue uppercase mb-12">Educator Experience</h2>
-            
-            <div class="space-y-12">
-                <div class="flex flex-col md:flex-row gap-6">
-                    <div class="md:w-1/4">
-                        <p class="text-slate-500 font-semibold">May 2025 - Present</p>
+    <section id="teaching" class="py-20 bg-slate-100 border-y border-slate-200">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="mb-16">
+                <h2 class="text-3xl font-extrabold text-darkBg mb-4">Educator Track</h2>
+                <div class="w-16 h-1 bg-primaryBlue rounded-full"></div>
+                <p class="mt-4 text-slate-600">5+ years mentoring top talents for highly competitive exams.</p>
+            </div>
+
+            <div class="space-y-8">
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-200">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-slate-900">Sr. Lecturer, Centre of Excellence (CoE)</h3>
+                            <p class="text-primaryBlue font-semibold text-lg">Aakash Educational Services Limited</p>
+                        </div>
+                        <span class="mt-2 md:mt-0 bg-slate-100 text-slate-600 font-bold px-3 py-1 rounded-md text-sm border border-slate-200">May '25 - Present</span>
                     </div>
-                    <div class="md:w-3/4">
-                        <h3 class="text-2xl font-bold text-slate-900">Sr. Lecturer, Centre of Excellence (CoE)</h3>
-                        <p class="text-accentBlue font-medium mb-4">Aakash Educational Services • Mumbai</p>
-                        <ul class="list-disc list-outside ml-5 text-slate-600 space-y-2">
-                            <li>Driving top-tier results for JEE Advanced Physics within Aakash's prestigious pan-India CoE ecosystem.</li>
-                            <li>Benchmarking academic delivery at a national level and collaborating with elite faculty across India.</li>
-                        </ul>
-                    </div>
+                    <p class="text-slate-600">Driving results at the highest level through Aakash's pan-India CoE ecosystem. Benchmarking national-level delivery for JEE Advanced Physics in Mumbai.</p>
                 </div>
 
-                <div class="flex flex-col md:flex-row gap-6">
-                    <div class="md:w-1/4">
-                        <p class="text-slate-500 font-semibold">May 2023 - May 2025</p>
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-200">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-slate-900">JEE/NEET Physics Faculty</h3>
+                            <p class="text-primaryBlue font-semibold text-lg">Gurukul Classes & Independent Mentor</p>
+                        </div>
+                        <span class="mt-2 md:mt-0 bg-slate-100 text-slate-600 font-bold px-3 py-1 rounded-md text-sm border border-slate-200">May '23 - May '25</span>
                     </div>
-                    <div class="md:w-3/4">
-                        <h3 class="text-2xl font-bold text-slate-900">JEE/NEET Physics Mentor</h3>
-                        <p class="text-accentBlue font-medium mb-4">Gurukul Classes & Independent Coaching</p>
-                        <ul class="list-disc list-outside ml-5 text-slate-600 space-y-2">
-                            <li>Mentored students to outstanding ranks: <strong>AIR 300 in JEE Advanced '24</strong> and 7 others under AIR 3K.</li>
-                            <li>Produced exceptional NEET results with highest Physics scores of 154 and 165+.</li>
-                            <li>Successfully guided 7/7 students to medical selections (100% strike rate), with 5 securing GMC seats.</li>
-                        </ul>
+                    <p class="text-slate-600">Worked alongside elite faculty to deliver top local and national ranks. Independently mentored students, including underprivileged medical aspirants, free of cost.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-200">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-slate-900">Physics Faculty & Head of Tech</h3>
+                            <p class="text-primaryBlue font-semibold text-lg">Sakaar PCMB Classes</p>
+                        </div>
+                        <span class="mt-2 md:mt-0 bg-slate-100 text-slate-600 font-bold px-3 py-1 rounded-md text-sm border border-slate-200">Jun '22 - Dec '23</span>
                     </div>
+                    <p class="text-slate-600">Led physics instruction for largest homegrown classes in Ch. Sambhajinagar while simultaneously leading technology initiatives and app conception.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impact" class="py-20 bg-darkBg text-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold mb-4">The Impact</h2>
+                <div class="w-16 h-1 bg-accentTeal mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 text-center hover:border-primaryBlue transition">
+                    <div class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400 mb-2">AIR 300</div>
+                    <p class="font-bold text-lg">JEE Advanced 2024</p>
+                    <p class="text-slate-400 text-sm mt-2">Mentored top ranker and 7 others under AIR 3000.</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 text-center hover:border-primaryBlue transition">
+                    <div class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400 mb-2">165+</div>
+                    <p class="font-bold text-lg">NEET Physics Score</p>
+                    <p class="text-slate-400 text-sm mt-2">Highest individual score, improving baseline from 30 to 134 marks.</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 text-center hover:border-primaryBlue transition">
+                    <div class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400 mb-2">100%</div>
+                    <p class="font-bold text-lg">Medical Selection Rate</p>
+                    <p class="text-slate-400 text-sm mt-2">7/7 independent students selected, with 5 securing GMC seats.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="tech" class="py-20 bg-white">
-        <div class="max-w-5xl mx-auto px-6">
-            <h2 class="text-sm font-bold tracking-widest text-accentBlue uppercase mb-12">EdTech & Innovation</h2>
-            
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="mb-16">
+                <h2 class="text-3xl font-extrabold text-darkBg mb-4">Tech & Innovator Track</h2>
+                <div class="w-16 h-1 bg-primaryBlue rounded-full"></div>
+            </div>
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="border border-slate-200 rounded-2xl p-8 hover:shadow-lg transition">
-                    <div class="bg-accentTeal/10 w-12 h-12 rounded-lg flex items-center justify-center text-accentTeal mb-6">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-2">DashHunt Tech (Founder)</h3>
-                    <p class="text-slate-500 text-sm mb-4">Aug 2022 - Dec 2023</p>
-                    <p class="text-slate-600 mb-4">Launched "Coaching Hunt", a discovery platform for students. Owned end-to-end development, strategy, and onboarded 60+ coaching classes and 400+ students.</p>
+                <div class="p-8 border-2 border-slate-100 rounded-2xl hover:border-primaryBlue transition hover:shadow-lg">
+                    <div class="text-3xl mb-4">🚀</div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-2">DashHunt Tech</h3>
+                    <p class="text-primaryBlue font-semibold mb-4">Founder & CEO (Aug '22 - Dec '23)</p>
+                    <p class="text-slate-600 mb-4">Launched 'Coaching Hunt', an EdTech platform for coaching discovery and scholarships. Maintained end-to-end ownership spanning tech stack development, business strategy, and operations.</p>
+                    <ul class="text-sm text-slate-500 list-disc ml-5">
+                        <li>Partnered with 60+ coaching classes</li>
+                        <li>Onboarded 400+ students</li>
+                    </ul>
                 </div>
 
-                <div class="border border-slate-200 rounded-2xl p-8 hover:shadow-lg transition">
-                    <div class="bg-accentBlue/10 w-12 h-12 rounded-lg flex items-center justify-center text-accentBlue mb-6">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-2">Software Development</h3>
-                    <p class="text-slate-500 text-sm mb-4">Python & Flutter Developer</p>
-                    <p class="text-slate-600 mb-4">Actively building proprietary study applications (like "ModX by Anup Sir") using Flutter for front-end architecture and Python for data-driven analytics and exam tracking.</p>
+                <div class="p-8 border-2 border-slate-100 rounded-2xl hover:border-primaryBlue transition hover:shadow-lg">
+                    <div class="text-3xl mb-4">💻</div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-2">Software Development</h3>
+                    <p class="text-primaryBlue font-semibold mb-4">Python & Flutter Engineer</p>
+                    <p class="text-slate-600 mb-4">Developer of 'ModX by Anup Sir' and internal coaching management systems. Bridging the gap between academics and technology through data-driven architectures.</p>
+                    <ul class="text-sm text-slate-500 list-disc ml-5">
+                        <li>Built analytics-driven exam data reporting systems</li>
+                        <li>Developed dual-sided apps for student tracking and faculty management</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="bg-slateDark text-slate-400 py-12 border-t border-slate-800">
-        <div class="max-w-5xl mx-auto px-6 text-center">
+    <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 text-center">
             <h2 class="text-2xl font-bold text-white mb-6">Let's Connect</h2>
-            <div class="flex flex-col md:flex-row justify-center gap-6 mb-8">
-                <a href="mailto:anupt27@gmail.com" class="flex items-center justify-center gap-2 hover:text-accentBlue transition">
-                    ✉️ anupt27@gmail.com
+            <div class="flex flex-col md:flex-row justify-center gap-4 md:gap-8 mb-8">
+                <a href="mailto:anupt27@gmail.com" class="hover:text-primaryBlue transition flex items-center justify-center gap-2">
+                    <span>✉️</span> anupt27@gmail.com
                 </a>
-                <a href="tel:+917972786958" class="flex items-center justify-center gap-2 hover:text-accentBlue transition">
-                    📞 +91 79727 86958
+                <a href="tel:+917972786958" class="hover:text-primaryBlue transition flex items-center justify-center gap-2">
+                    <span>📞</span> +91 79727 86958 / 99754 44041
                 </a>
-                <span class="hidden md:inline text-slate-700">|</span>
-                <span class="flex items-center justify-center gap-2">
-                    📍 Navi Mumbai, Maharashtra
-                </span>
             </div>
             <p class="text-sm text-slate-600">
-                © <script>document.write(new Date().getFullYear())</script> Anup Totala. Built with standard web technologies.
+                © <script>document.write(new Date().getFullYear())</script> Anup Totala. All rights reserved. Built with precision.
             </p>
         </div>
     </footer>
+
+    <a href="https://wa.me/917972786958?text=Hello%20Anup,%20I%20am%20reaching%20out%20from%20your%20portfolio%20website." 
+       target="_blank" 
+       class="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 hover:scale-110 transition-transform flex items-center justify-center group"
+       aria-label="Contact on WhatsApp">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+        </svg>
+    </a>
 
 </body>
 </html>
